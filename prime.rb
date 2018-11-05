@@ -1,5 +1,5 @@
 def prime?(num)
-  if num <= 2
+  if num < 2
     return false
   end
   test_set = (2..num).to_a
