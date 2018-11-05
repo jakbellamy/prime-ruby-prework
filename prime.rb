@@ -6,7 +6,8 @@ def prime?(num)
   test_set.each do |test_num|
     if num % test_num == 0
       return false
+    else
+      return true
     end
   end
-  return true
 end
