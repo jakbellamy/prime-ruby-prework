@@ -2,7 +2,7 @@ def prime?(num)
   if num <= 1
     return false
   end
-  array = (2..num).to_a.each do |test_set|
+  array = (2..num).to_a.each do |test|
       if num % test_set == 0
         return false
       else
